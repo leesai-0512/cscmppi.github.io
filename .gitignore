@@ -1,0 +1,11 @@
+_site/
+.jekyll-cache/
+.bundle/
+Gemfile.lock
+_site/
+.jekyll-cache/
+.bundle/
+Gemfile.lock
+.DS_Store
+vendor/
+README.md/

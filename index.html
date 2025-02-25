@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="CSC-MPPI: A Constrained MPPI Framework with DBSCAN for Reliable Obstacle Avoidance">
+  <meta property="og:title" content="CSC-MPPI: A Constrained MPPI Framework with DBSCAN"/>
+  <meta property="og:description" content="A novel constrained MPPI formulation designed to enhance trajectory optimization while enforcing strict constraints on system states and control inputs."/>
+  <meta property="og:url" content="https://leesai-0512.github.io/csmppi/"/>
+  <meta property="og:image" content="static/images/csc-mppi-banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:title" content="CSC-MPPI: A Constrained MPPI Framework"/>
+  <meta name="twitter:description" content="Enhancing MPPI trajectory optimization with constraint satisfaction using DBSCAN clustering."/>
+  <meta name="twitter:image" content="static/images/csc-mppi-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="MPPI, DBSCAN, Obstacle Avoidance, Robotics, Path Planning, Motion Planning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSC-MPPI</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">CSC-MPPI: A Constrained MPPI Framework with DBSCAN for Reliable Obstacle Avoidance</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Leesai Park<sup>1</sup>, Keunwoo Jang<sup>2</sup>, and Sanghyun Kim<sup>1†</sup></span>
+              <div class="is-size-6 publication-affiliations">
+                <span>1. Kyung Hee University, Republic of Korea</span><br>
+                <span>2. Korea Institute of Science and Technology (KIST), Republic of Korea</span>
+              </div>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="static/pdfs/csc-mppi-paper.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark" disabled>
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code - Coming Soon</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=DRFQBkR59KA" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>YouTube</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              This paper proposes Constrained Sampling Cluster Model Predictive Path Integral (CSC-MPPI), a novel constrained formulation of MPPI designed to enhance trajectory optimization while enforcing strict constraints on system states and control inputs. 
+              Traditional MPPI, which relies on a probabilistic sampling process, often struggles with constraint satisfaction and generates suboptimal trajectories due to the weighted averaging of sampled trajectories.
+              To address these limitations, the proposed framework integrates a primal-dual gradient-based approach and Density-Based Spatial Clustering of Applications with Noise (DBSCAN) to steer sampled input trajectories into feasible regions while mitigating risks associated with weighted averaging.
+              Simulation and real-world experiments demonstrate that CSC-MPPI outperforms standard MPPI and other state-of-the-art algorithms in obstacle avoidance, achieving improved reliability and efficiency.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Presentation -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Video Presentation</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="publication-video">
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/DRFQBkR59KA" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+              Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
